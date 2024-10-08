@@ -32,6 +32,7 @@
         estacionOrigen = "León";
         estacionDestino = estacionD;
     }
+    
     /**
      * Devuelve el precio del billete
      */
@@ -44,6 +45,11 @@
      */
     public int getBalanceClienteActual() {
         return balanceClienteActual;
+    }
+    
+    public int getTotalDineroAcumulado(){
+        totalDineroAcumulado = totalDineroAcumulado + balanceClienteActual;
+        return totalDineroAcumulado;
     }
 
     /**
@@ -70,4 +76,6 @@
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+    
+    
 }
