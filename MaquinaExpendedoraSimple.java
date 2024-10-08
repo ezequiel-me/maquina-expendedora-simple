@@ -51,6 +51,11 @@
         return totalDineroAcumulado;
     }
     
+    public void setPrecioBillete(int nuevoPrecio){
+        precioBillete = nuevoPrecio;
+    
+    }
+    
 
     /**
      * Simula la introduccion de dinero por parte del cliente actual
