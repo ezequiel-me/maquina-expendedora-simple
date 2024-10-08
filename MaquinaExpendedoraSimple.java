@@ -53,9 +53,11 @@
     
     public void setPrecioBillete(int nuevoPrecio){
         precioBillete = nuevoPrecio;
-    
     }
     
+    public void reducirPrecioBillete(int bajarPrecio){
+        precioBillete = precioBillete - bajarPrecio;
+    }
 
     /**
      * Simula la introduccion de dinero por parte del cliente actual
