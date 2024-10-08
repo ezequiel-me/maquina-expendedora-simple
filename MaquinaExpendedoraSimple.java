@@ -58,6 +58,11 @@
     public void reducirPrecioBillete(int bajarPrecio){
         precioBillete = precioBillete - bajarPrecio;
     }
+    
+    public void vaciarDepositoDinero(){
+        int vaciarDepositoDinero = totalDineroAcumulado;
+        totalDineroAcumulado = 0;
+    }
 
     /**
      * Simula la introduccion de dinero por parte del cliente actual
