@@ -27,6 +27,8 @@
     
     public MaquinaExpendedoraSimple(int precioDelbillete, String estacionD){
         precioBillete = precioDelbillete;
+        balanceClienteActual = 0;
+        totalDineroAcumulado = 0;
         estacionOrigen = "León";
         estacionDestino = estacionD;
     }
